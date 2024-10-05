@@ -1,0 +1,204 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+#title-label
+{
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: white;
+}
+
+#text
+{
+	color: white;
+	font-size: 28px;
+	margin-top: 100px;
+}
+
+#image
+{
+	margin-top: 30px;
+}
+
+#new-label
+{
+	font-size: 50px;
+}
+
+#title-label span.highligh
+{
+	background: linear-gradient(to right, orange, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#subtitle-label
+{
+	font-size: 17px;
+	color: grey;
+	margin-top: 10px;
+}
+
+#bora
+{
+    background: white;
+    color: #252241;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid #00aaff;
+}
+
+/* Efeito hover no botão */
+#bora:hover
+{
+    background-color: #00aaff;
+    color: #ffffff;
+}
+
+#page_info
+{
+	background: #252241;
+}
+
+#not
+{
+	background: #252241;
+}
+
+#page
+{
+	background: #252241;
+}
+
+#page1
+{
+	background: #252241;
+}
+
+#box
+{
+	background: #252;
+}
+
+
+
+#page2
+{
+	
+	padding-left: 0 0;
+	background: #252241;
+}
+
+
+#content_area
+{
+	display: flex;
+	width: 80%;
+	padding: 10rem;
+	padding-left: 630rem;
+	justify-content: center;
+	background: transparent;
+	padding: 6px;
+	height: 10rem;
+}
+
+#app-item
+{
+	padding-left: 4 4;
+}
+#label
+{
+	color:white;	
+}
+#version
+{
+	color:#9b9b9b;
+}
+tab
+{
+	padding: 0 8 0 8;
+	margin: 0;
+}
+
+notebook
+{
+	width:100%;
+	background-color: #e0f7fa;
+	padding: 2px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+    
+}
+
+notebook tab
+{
+	background-color: #252241;
+	color: white;
+	padding: 5px;
+	/*margin-right: auto;*/
+	text-align: center;
+}
+
+notebook > stack
+{
+	display:flex; 
+	justify-content: center;
+	align-items: center;
+
+}
+
+notebook tab:checked
+{
+	background-color: #141121; 
+	justify-content: center;
+	align-items: center; 
+}
+
+notebook tab:hover
+{
+	background-color: #2229; 
+}
+
+
+notebook tab label
+{
+	text-align: center; 
+	margin-left: auto;
+	margin-right: auto;
+	padding:0 3rem;
+}
+
+notebook > header.bottom > tabs
+{
+	align-items: center;
+	background-color: #252241;
+}
+
+notebook > header.top > tabs
+{
+	align-items: center;
+	background-color: #252241;
+}
+
+notebook > header.right > tabs
+{
+	align-items: center;
+	background-color: #252241;
+}
+
+notebook > header.left > tabs
+{
+	align-items: center;
+	background-color: #252241;
+}
+
+
+
+
+
