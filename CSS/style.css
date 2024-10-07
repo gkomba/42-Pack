@@ -6,22 +6,280 @@
 
 #title-label
 {
-	font-size: 28px;
-	font-weight: bold;
+	color: #c0c0c0;
+	font-size: 16px;
 	margin-top: 10px;
-	color: white;
+	font-weight: bold;
+	font-family: "Ubuntu", sans-serif;
+	padding: 10px;
+	border-radius: 10px;
 }
 
-#text
+#meet
 {
-	color: white;
-	font-size: 28px;
-	margin-top: 100px;
+	font-family: 'Arial', sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #8677cf;
 }
 
-#image
+#box1
 {
-	margin-top: 30px;
+	background: #5D599D;
+	padding: 10px;
+	border-radius: 12px;
+	border: none;
+	transition: background 0.8s ease, transform 0.4s ease, box-shadow 0.4s ease;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+}
+
+#box1:hover
+{
+	background: linear-gradient(135deg, #4C4983, #2E2C5C); 
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#lb1
+{
+	font-size: 16px;
+	color: #E4E4DE;
+	margin-bottom: 5px;
+}
+
+#sub1
+{
+	font-size: 14px;
+	color: #252241;
+	margin-bottom: 5px
+}
+
+#box2
+{
+	background: #5D599D;
+	padding: 10px;
+	border-radius: 12px;
+	border: none;
+	transition: background 0.8s ease, transform 0.4s ease, box-shadow 0.4s ease;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+}
+
+#box2:hover
+{
+	background: linear-gradient(135deg, #4C4983, #2E2C5C); 
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#lb2
+{
+	font-size: 16px;
+	color: #E4E4DE;
+	margin-bottom: 5px;
+}
+
+#sub2
+{
+	font-size: 14px;
+	color: #252241;
+	margin-bottom: 5px
+}
+
+#box3
+{
+	background: #5D599D;
+	padding: 10px;
+	border-radius: 12px;
+	border: none;
+	transition: background 0.8s ease, transform 0.4s ease, box-shadow 0.4s ease;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+}
+
+#box3:hover
+{
+	background: linear-gradient(135deg, #4C4983, #2E2C5C); 
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#lb3
+{
+	font-size: 16px;
+	color: #E4E4DE;
+	margin-bottom: 5px;
+}
+
+#sub3
+{
+	font-size: 14px;
+	color: #252241;
+	margin-bottom: 5px
+}
+
+#box4
+{
+	background: #5D599D;
+	padding: 10px;
+	border-radius: 12px;
+	border: none;
+	transition: background 0.8s ease, transform 0.4s ease, box-shadow 0.4s ease;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+}
+
+#box4:hover
+{
+	background: linear-gradient(135deg, #4C4983, #2E2C5C); 
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+#lb4
+{
+	font-size: 16px;
+	color: #E4E4DE;
+	margin-bottom: 5px;
+}
+
+#sub4
+{
+	font-size: 14px;
+	color: #252241;
+	margin-bottom: 5px
+}
+
+#box5
+{
+	background: #5D599D;
+	padding: 10px;
+	border-radius: 12px;
+	border: none;
+	transition: background 0.8s ease, transform 0.4s ease, box-shadow 0.4s ease;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+}
+
+#box5:hover
+{
+	background: linear-gradient(135deg, #4C4983, #2E2C5C); 
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#lb5
+{
+	font-size: 16px;
+	color: #E4E4DE;
+	margin-bottom: 5px;
+}
+
+#sub5
+{
+	font-size: 14px;
+	color: #252241;
+	margin-bottom: 5px
+}
+
+#box6
+{
+	background: #5D599D;
+	padding: 10px;
+	border-radius: 12px;
+	border: none;
+	transition: background 0.8s ease, transform 0.4s ease, box-shadow 0.4s ease;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+}
+
+#box6:hover
+{
+	background: linear-gradient(135deg, #4C4983, #2E2C5C); 
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#lb6
+{
+	font-size: 16px;
+	color: #E4E4DE;
+	margin-bottom: 5px;
+}
+
+#sub6
+{
+	font-size: 14px;
+	color: #252241;
+	margin-bottom: 5px
+}
+
+#box7
+{
+	background: #5D599D;
+	padding: 10px;
+	border-radius: 12px;
+	border: none;
+	transition: background 0.8s ease, transform 0.4s ease, box-shadow 0.4s ease;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+}
+
+#box7:hover
+{
+	background: linear-gradient(135deg, #4C4983, #2E2C5C); 
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#lb7
+{
+	font-size: 16px;
+	color: #E4E4DE;
+	margin-bottom: 5px;
+}
+
+#sub7
+{
+	font-size: 14px;
+	color: #252241;
+	margin-bottom: 5px
+}
+
+#git
+{
+	text-decoration: none;
+	background: #E4E4DE;
+	color: #252241;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+	margin-right: 60px;
+	margin-top: 20px;
+}
+
+#git:hover
+{
+	background: #5D599D;
+	color: #E4E4DE;
+}
+
+
+#text-box
+{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#subtitle-label
+{
+	color: #c0c0c0;
+	font-size: 16px;
+	margin-top: 10px;
+	font-family: "Ubuntu", sans-serif;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#new-label
+{
+	font-size: 50px;
 }
 
 #new-label
@@ -53,7 +311,6 @@
     border: 2px solid #00aaff;
 }
 
-/* Efeito hover no botão */
 #bora:hover
 {
     background-color: #00aaff;
@@ -85,55 +342,39 @@
 	background: #252;
 }
 
-
-
 #page2
 {
-	
-	padding-left: 0 0;
 	background: #252241;
 }
 
-
 #content_area
 {
-	display: flex;
-	width: 80%;
 	padding: 10rem;
 	padding-left: 630rem;
-	justify-content: center;
 	background: transparent;
 	padding: 6px;
-	height: 10rem;
 }
 
-#app-item
-{
-	padding-left: 4 4;
-}
 #label
 {
 	color:white;	
 }
+
 #version
 {
 	color:#9b9b9b;
 }
+
 tab
 {
-	padding: 0 8 0 8;
+	padding: 0px 8px 0px 8px;
 	margin: 0;
 }
 
 notebook
 {
-	width:100%;
 	background-color: #e0f7fa;
 	padding: 2px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-    
 }
 
 notebook tab
@@ -141,64 +382,25 @@ notebook tab
 	background-color: #252241;
 	color: white;
 	padding: 5px;
-	/*margin-right: auto;*/
-	text-align: center;
-}
-
-notebook > stack
-{
-	display:flex; 
-	justify-content: center;
-	align-items: center;
-
 }
 
 notebook tab:checked
 {
 	background-color: #141121; 
-	justify-content: center;
-	align-items: center; 
 }
-
-notebook tab:hover
-{
-	background-color: #2229; 
-}
-
 
 notebook tab label
 {
-	text-align: center; 
-	margin-left: auto;
-	margin-right: auto;
-	padding:0 3rem;
+	padding: 0 3rem;
 }
 
 notebook > header.bottom > tabs
 {
-	align-items: center;
 	background-color: #252241;
 }
 
-notebook > header.top > tabs
+headerbar
 {
-	align-items: center;
-	background-color: #252241;
+	background: #252241;
+	padding: 0 1rem;
 }
-
-notebook > header.right > tabs
-{
-	align-items: center;
-	background-color: #252241;
-}
-
-notebook > header.left > tabs
-{
-	align-items: center;
-	background-color: #252241;
-}
-
-
-
-
-

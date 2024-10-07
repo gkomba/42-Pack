@@ -1,34 +1,17 @@
 #app-item
 {
-	
-	align-items: center;
-	position: relative;
-	justify-content: space-between;
-	display: flex;
 	padding: 10px;
 	margin: 0 5px;
 	border-radius: 1rem;
-	backdrop-filter: blur(3rem);
 	background: linear-gradient(to bottom, #2c2a4c, #252241);
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-	background-gradient: #2c2a4c;
-	
 }
 
 #app-item2
 {
-	
-	
-	position: relative;
-	justify-content: space-between;
-	display: flex;
 	padding: 10px;
 	margin: 0 5px;
 	border-radius: 1rem;
-	backdrop-filter: blur(3rem);
 	background: #2c2a4c;
-	background-gradient: #2c2a4c;
-	
 }
-
 
