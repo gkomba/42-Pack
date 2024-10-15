@@ -9,7 +9,6 @@
 	color: #c0c0c0;
 	font-size: 16px;
 	margin-top: 10px;
-	font-weight: bold;
 	font-family: "Ubuntu", sans-serif;
 	padding: 10px;
 	border-radius: 10px;
@@ -21,23 +20,21 @@
 	font-size: 2rem;
 	font-weight: bold;
 	color: #8677cf;
+	margin-right: 30px;
+}
+
+#end
+{
+	
+	background: white;
 }
 
 #box1
 {
-	background: #5D599D;
-	padding: 10px;
+	border: 12px solid #6B5EA7;
 	border-radius: 12px;
-	border: none;
-	transition: background 0.8s ease, transform 0.4s ease, box-shadow 0.4s ease;
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-	letter-spacing: 1px;
-}
-
-#box1:hover
-{
-	background: linear-gradient(135deg, #4C4983, #2E2C5C); 
-	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+	background: #6B5EA7;
+        margin-bottom: 5px;
 }
 
 #lb1
@@ -51,28 +48,7 @@
 {
 	font-size: 14px;
 	color: #252241;
-	margin-bottom: 5px
 }
-
-#git
-{
-	text-decoration: none;
-	background: #E4E4DE;
-	color: #252241;
-	border-radius: 8px;
-	font-size: 14px;
-	font-weight: bold;
-	transition: background-color 0.3s ease;
-	margin-right: 60px;
-	margin-top: 20px;
-}
-
-#git:hover
-{
-	background: #5D599D;
-	color: #E4E4DE;
-}
-
 
 #text-box
 {
@@ -90,9 +66,9 @@
 	border-radius: 10px;
 }
 
-#new-label
+#image
 {
-	font-size: 50px;
+	margin-left: 20px;
 }
 
 #new-label
@@ -100,22 +76,14 @@
 	font-size: 50px;
 }
 
-#title-label span.highligh
-{
+#title-label span.highligh {
 	background: linear-gradient(to right, orange, purple);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-#subtitle-label
-{
-	font-size: 17px;
-	color: grey;
-	margin-top: 10px;
-}
 
-#bora
-{
+#bora {
     background: white;
     color: #252241;
     font-size: 16px;
@@ -124,8 +92,8 @@
     border: 2px solid #00aaff;
 }
 
-#bora:hover
-{
+/* Efeito hover no botão */
+#bora:hover {
     background-color: #00aaff;
     color: #ffffff;
 }
@@ -134,6 +102,7 @@
 {
 	background: #252241;
 }
+
 
 #not
 {
@@ -152,6 +121,7 @@
 
 #box
 {
+	border-radius: px;
 	background: #252;
 }
 
